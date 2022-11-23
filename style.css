@@ -1,0 +1,154 @@
+body{
+    background-color:#15151e;
+}
+
+main{
+    background-color:#212832;
+    position:relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 5%;
+    margin:auto ;
+    margin-top: 90px;
+    padding: auto;
+    box-shadow:  0px 0px 0px  black;
+}
+
+#img{
+    width: 14px;
+    height: 14px;
+    margin-top: 30px;
+    border-radius:50% ;
+    border: 15px solid #262f38;
+}
+
+.container{
+    
+    margin-left: 30px;
+}
+
+.block{
+    color:white;
+    font-size: 25px;
+    font-family: 'Overpass';
+    margin-top: 15px;
+}
+.block1{
+    color:gray;
+    margin-top: 10px;
+    font-family: 'Overpass';
+    font-weight: 400;
+    width: 300px;
+    height: 15px;
+    font-size: 13px;
+}
+
+table{
+    margin-top: 50px;
+    margin-right: 15px;
+    border-collapse: collapse;
+}
+
+button{
+    border:none;
+}
+
+
+
+.circle{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color:#313945;
+    box-shadow: #15151e;
+    color: gray;
+    margin-right: 15px; 
+    
+}
+
+.submit{
+    background-color: #fc7613;
+    border:none;
+    width: 100px;
+    border-radius: 30px;
+    color:white;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Overpass';
+    margin-top: 25px;
+}
+
+.submit:hover{
+    background-color: white;
+    color:#fc7613;
+}
+
+.circle:hover{
+    background-color: #fc7613;
+    color:white;
+}
+
+.circle:focus{
+    background-color: gray;
+    color: white;
+}
+
+.second{
+    background-color:#212832;
+    position:relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 5%;
+    margin:auto ;
+    margin-top: 90px;
+    padding: auto;
+    box-shadow:  0px 0px 0px  black;
+}
+
+.second img{
+    width: 130px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 100px;
+    
+}
+.second .block{
+    background-color: #262f38;
+    border:none;
+    width: 100px;
+    border-radius: 30px;
+    color:#fe7714;
+    width: 170px;
+    height: 20px;
+    font-size: 13px;
+    font-family: 'Overpass';
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 90px;
+    align-items: center;
+    
+}
+
+.second .block1{
+    margin-left: 110px;
+    color:white;
+    font-family: 'Overpass';
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.second .block2{
+    margin-top: 15px;
+    color:gray;
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 30px;
+}
+.inline{
+text-indent: 7.5em;}
+
+.hidden{
+    display: none;
+}
